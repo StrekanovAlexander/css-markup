@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  background-color: lightgray;
+}
+
+.col-2 {
+  width: 15%;
+}
+
+.col-4 {
+  width: 32%;
+}
+
+.col-6 {
+  width: 49%;
+}
+
+.col-8 {
+  width: 66%;
+}
+
+.col-10 {
+  width: 83%;
+}
+
+.col-12 {
+  width: 100%;
+}
