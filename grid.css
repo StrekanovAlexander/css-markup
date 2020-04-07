@@ -41,6 +41,46 @@ body {
   width: 100%;
 }
 
+.col-offset-left-2 {
+  margin-left: 17%;
+}
+
+.col-offset-left-4 {
+  margin-left: 34%;
+}
+
+.col-offset-left-6 {
+  margin-left: 51%;
+}
+
+.col-offset-left-8 {
+  margin-left: 68%;
+}
+
+.col-offset-left-10 {
+  margin-left: 85%;
+}
+
+.col-offset-right-2 {
+  margin-right: 17%;
+}
+
+.col-offset-right-4 {
+  margin-right: 34%;
+}
+
+.col-offset-right-6 {
+  margin-right: 51%;
+}
+
+.col-offset-right-8 {
+  margin-right: 68%;
+}
+
+.col-offset-right-10 {
+  margin-right: 85%;
+}
+
 @media all and (max-width: 480px) {
   .container {
     flex-direction: column;
