@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav__fixed_bottom {
+  background-color: lightgray;
+  bottom: 0;
+  position: fixed;
+  width: 100%; 
+}
+
+.nav__fixed_top {
+  background-color: lightgray;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+}
+
+.nav__fixed_left {
+  background-color: lightslategrey;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+.nav__fixed_block {
+  background-color: yellow;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 5rem;
+  z-index: 5;
+}
+
+.nav__el {
+  margin: .5rem 1rem;
+}
+
+.nav__el_rot {
+  margin: 1rem .5rem;
+  transform: rotate(-90deg);
+}
+
+@media all and (max-width: 480px) {
+  .nav__el_rot {
+    margin: 1rem 0rem;
+  }
+}
