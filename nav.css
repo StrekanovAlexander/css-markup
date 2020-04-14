@@ -26,7 +26,7 @@
   top: 0;
 }
 
-.nav__fixed_block {
+.nav__fixed_box {
   background-color: yellow;
   flex-direction: column;
   justify-content: center;
